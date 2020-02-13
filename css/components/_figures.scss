@@ -1,0 +1,30 @@
+.figure-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@media (min-width: 576px) {		
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	figure{
+		margin-bottom: 2rem;
+		display: inline-block;
+		width: 64%;
+		padding-top: 64%;
+
+		@media (min-width: 576px) {
+			width: 25%;
+			padding-top: 25%;
+			margin: 2%;
+
+			&.bg-blue{
+				order: 6;
+			}
+		}	
+	}
+}
+
+

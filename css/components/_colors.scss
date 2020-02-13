@@ -1,0 +1,22 @@
+$green: green;
+$blue: blue;
+$light-gray: lightgray;
+$gray: gray;
+$black: black;
+
+/* bg-colors */
+.bg-green{background-color: $green;}
+.bg-blue{background-color: $blue;}
+.bg-lightgray{ background-color: $light-gray;}
+.bg-gray{background-color: $gray;}
+.bg-black{background-color: $black;}
+
+/* colors */
+.color-green{color: $green;}
+.color-blue{color: $blue;}
+.color-lightgray{ color: $light-gray;}
+.color-gray{color: $gray;}
+.color-black{color: $black;}
+
+/* border */
+.border-top-lightgray{ border-top: 1px solid $light-gray;}
